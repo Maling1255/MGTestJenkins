@@ -1,0 +1,6 @@
+framework module Pods_MGTestJenkins {
+  umbrella header "Pods-MGTestJenkins-umbrella.h"
+
+  export *
+  module * { export * }
+}
