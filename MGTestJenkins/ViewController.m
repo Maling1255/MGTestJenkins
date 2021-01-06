@@ -15,7 +15,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    NSLog(@"这是在1.0.1分支上的打印");
 }
 
 
