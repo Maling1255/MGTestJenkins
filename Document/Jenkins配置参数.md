@@ -21,7 +21,7 @@ http://localhost:8080/exit			// 关闭
 ```
 
 
-* 设置开机启动
+* 设置开机启动Jenkins服务
 ```
 sudo launchctl load -w /Library/LaunchDaemons/org.jenkins-ci.plist 
 ```
