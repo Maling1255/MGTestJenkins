@@ -25,13 +25,13 @@
     
     if (BETA) {
         NSLog(@"测试环境打印");
-        self.textLbl.text = @"测试环境文本";
+        self.textLbl.text = @"测试环境文本1.0.0";
     } else if (DEV) {
         NSLog(@"开发环境打印");
-        self.textLbl.text = @"开发环境文本";
+        self.textLbl.text = @"开发环境文本1.0.0";
     } else {
         NSLog(@"线上环境打印");
-        self.textLbl.text = @"线上环境文本";
+        self.textLbl.text = @"线上环境文本1.0.0";
     }
     
 }
