@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		12A68B2F2C32DD9E17BCBFE0 /* Pods_MGTestJenkins_MGTestJenkinsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1EF5A5BA222AE3BBD890AA /* Pods_MGTestJenkins_MGTestJenkinsUITests.framework */; };
-		2029640CCE3F1F875775B675 /* Pods_MGTestJenkins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9439785A456131D523A557A0 /* Pods_MGTestJenkins.framework */; };
 		79500E5025A7ECE800DD0EC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA75D25A2F6E6002BDED1 /* ViewController.m */; };
 		79500E5125A7ECE800DD0EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA75725A2F6E6002BDED1 /* AppDelegate.m */; };
 		79500E5225A7ECE800DD0EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA76825A2F6E9002BDED1 /* main.m */; };
 		79500E5325A7ECE800DD0EC2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA75A25A2F6E6002BDED1 /* SceneDelegate.m */; };
-		79500E5525A7ECE800DD0EC2 /* Pods_MGTestJenkins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9439785A456131D523A557A0 /* Pods_MGTestJenkins.framework */; };
 		79500E5725A7ECE800DD0EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA76425A2F6E9002BDED1 /* LaunchScreen.storyboard */; };
 		79500E5825A7ECE800DD0EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA76225A2F6E9002BDED1 /* Assets.xcassets */; };
 		79500E5925A7ECE800DD0EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA75F25A2F6E6002BDED1 /* Main.storyboard */; };
@@ -93,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79500E5525A7ECE800DD0EC2 /* Pods_MGTestJenkins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2029640CCE3F1F875775B675 /* Pods_MGTestJenkins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
