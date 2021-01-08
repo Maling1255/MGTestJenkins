@@ -21,7 +21,6 @@
 		79500E6C25A7ED0000DD0EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA75725A2F6E6002BDED1 /* AppDelegate.m */; };
 		79500E6D25A7ED0000DD0EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA76825A2F6E9002BDED1 /* main.m */; };
 		79500E6E25A7ED0000DD0EC2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA75A25A2F6E6002BDED1 /* SceneDelegate.m */; };
-		79500E7025A7ED0000DD0EC2 /* Pods_MGTestJenkins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9439785A456131D523A557A0 /* Pods_MGTestJenkins.framework */; };
 		79500E7225A7ED0000DD0EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA76425A2F6E9002BDED1 /* LaunchScreen.storyboard */; };
 		79500E7325A7ED0000DD0EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA76225A2F6E9002BDED1 /* Assets.xcassets */; };
 		79500E7425A7ED0000DD0EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA75F25A2F6E6002BDED1 /* Main.storyboard */; };
@@ -60,10 +59,10 @@
 		5E1EF5A5BA222AE3BBD890AA /* Pods_MGTestJenkins_MGTestJenkinsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGTestJenkins_MGTestJenkinsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3744BF72F8A17B6D01BC06 /* Pods-MGTestJenkins-MGTestJenkinsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGTestJenkins-MGTestJenkinsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MGTestJenkins-MGTestJenkinsUITests/Pods-MGTestJenkins-MGTestJenkinsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F918E1470A6E53591D0CF76 /* Pods-MGTestJenkinsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGTestJenkinsTests.debug.xcconfig"; path = "Target Support Files/Pods-MGTestJenkinsTests/Pods-MGTestJenkinsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7930D71B25A81C8B008F204C /* BetaInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BetaInfo.plist; sourceTree = "<group>"; };
+		7930D71C25A81C8B008F204C /* DevInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DevInfo.plist; sourceTree = "<group>"; };
 		79500E5E25A7ECE800DD0EC2 /* MGTestJenkinsBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGTestJenkinsBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		79500E5F25A7ECE800DD0EC2 /* BetaInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = BetaInfo.plist; path = /Users/open/Desktop/MGTestJenkins/BetaInfo.plist; sourceTree = "<absolute>"; };
 		79500E7925A7ED0000DD0EC2 /* MGTestJenkinsDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGTestJenkinsDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		79500E7F25A7ED0000DD0EC2 /* DevInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = DevInfo.plist; path = /Users/open/Desktop/MGTestJenkins/DevInfo.plist; sourceTree = "<absolute>"; };
 		79B1030725A433EA00D71641 /* MGTestJenkins.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MGTestJenkins.entitlements; sourceTree = "<group>"; };
 		79CCA75325A2F6E6002BDED1 /* MGTestJenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGTestJenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CCA75625A2F6E6002BDED1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79500E7025A7ED0000DD0EC2 /* Pods_MGTestJenkins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,8 +192,8 @@
 				79CCA76225A2F6E9002BDED1 /* Assets.xcassets */,
 				79CCA76425A2F6E9002BDED1 /* LaunchScreen.storyboard */,
 				79CCA76725A2F6E9002BDED1 /* Info.plist */,
-				79500E5F25A7ECE800DD0EC2 /* BetaInfo.plist */,
-				79500E7F25A7ED0000DD0EC2 /* DevInfo.plist */,
+				7930D71B25A81C8B008F204C /* BetaInfo.plist */,
+				7930D71C25A81C8B008F204C /* DevInfo.plist */,
 				79CCA76825A2F6E9002BDED1 /* main.m */,
 			);
 			path = MGTestJenkins;
@@ -691,7 +689,7 @@
 					"BETA=1",
 					"DEV=0",
 				);
-				INFOPLIST_FILE = BetaInfo.plist;
+				INFOPLIST_FILE = MGTestJenkins/BetaInfo.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -722,7 +720,7 @@
 					"BETA=1",
 					"DEV=0",
 				);
-				INFOPLIST_FILE = BetaInfo.plist;
+				INFOPLIST_FILE = MGTestJenkins/BetaInfo.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -752,7 +750,7 @@
 					"BETA=0",
 					"DEV=1",
 				);
-				INFOPLIST_FILE = DevInfo.plist;
+				INFOPLIST_FILE = MGTestJenkins/DevInfo.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -782,7 +780,7 @@
 					"BETA=0",
 					"DEV=1",
 				);
-				INFOPLIST_FILE = DevInfo.plist;
+				INFOPLIST_FILE = MGTestJenkins/DevInfo.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

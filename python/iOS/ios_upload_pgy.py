@@ -19,9 +19,9 @@ sys.setdefaultencoding('utf-8')
 #蒲公英应用上传地址
 url = 'https://www.pgyer.com/apiv2/app/upload'
 #蒲公英提供的 用户Key
-userKey = '529dac4adaeb7c813c0e3d5399f579d9'
+userKey = '62b171113265556b695b736b74d904ad'
 #蒲公英提供的 API Key
-_api_key = 'c12ad62cd793ce1096452b9eed43d4fc'
+_api_key = '2fc0b3fd44198c558ab8110602552737'
 #安装应用时需要输入的密码，这个可不填
 installPassword = '1'
 _buildInstallType = '2'
