@@ -4,56 +4,49 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-MGTestJenkins-MGTestJenkinsUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>Pods-MGTestJenkins-MGTestJenkinsUITests.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>Pods-MGTestJenkins.xcscheme</key>
-		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 		<key>Pods-MGTestJenkins.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>Pods-MGTestJenkinsTests.xcscheme</key>
-		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-MGTestJenkinsTests.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>YYKit.xcscheme</key>
-		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>YYKit.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>0015D99E4D861A08F3CD42DA521AEF40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52535E1B2E1DC1695ABA1363700DF5E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4FB6E198710271DED654A8A6D6CE022</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7BB614018537CCB9DBA3F172274ACBE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

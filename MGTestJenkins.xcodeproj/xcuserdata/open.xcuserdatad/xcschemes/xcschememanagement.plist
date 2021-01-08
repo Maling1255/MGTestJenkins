@@ -6,8 +6,52 @@
 	<dict>
 		<key>MGTestJenkins.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>1</integer>
+		</dict>
+		<key>MGTestJenkinsBeta.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>MGTestJenkinsDev.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>79500E4D25A7ECE800DD0EC2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79500E6825A7ED0000DD0EC2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79CCA75225A2F6E6002BDED1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79CCA76D25A2F6E9002BDED1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79CCA77825A2F6E9002BDED1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
