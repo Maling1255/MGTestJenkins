@@ -8,6 +8,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *textLbl;
 
 @end
 
@@ -21,6 +22,18 @@
     int c = a + b;
     
     NSLog(@"输出打印内容C: %d", c);
+    
+    if (BETA) {
+        NSLog(@"测试环境打印");
+        self.textLbl.text = @"测试环境文本";
+    } else if (DEV) {
+        NSLog(@"开发环境打印");
+        self.textLbl.text = @"开发环境文本";
+    } else {
+        NSLog(@"线上环境打印");
+        self.textLbl.text = @"线上环境文本";
+    }
+    
 }
 
 

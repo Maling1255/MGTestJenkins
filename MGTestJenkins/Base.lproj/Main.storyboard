@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -22,14 +23,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J98-fR-iIA">
+                                <rect key="frame" x="186" y="391.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="J98-fR-iIA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0s2-p5-N0h"/>
+                            <constraint firstItem="fpx-YK-Sek" firstAttribute="top" secondItem="J98-fR-iIA" secondAttribute="bottom" constant="30" id="fyC-Q9-NUD"/>
                             <constraint firstItem="fpx-YK-Sek" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="g58-iq-a2L"/>
                             <constraint firstItem="fpx-YK-Sek" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hhh-d0-g07"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textLbl" destination="J98-fR-iIA" id="uiV-ow-2Jq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
