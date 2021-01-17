@@ -34,11 +34,11 @@ sudo launchctl unload -w /Library/LaunchDaemons/org.jenkins-ci.plist
 
 
 ### 插件
-* Git Parameter 添加git分支的参数
+* `Git Parameter` 添加git分支的参数
 
 * 因为我们用的是GitLab来管理源代码，Jenkins本身并没有自带GitLab插件，所以我们需要依次选择 系统管理->管理插件，在*可选插件*中选中 `GitLab Plugin`和`Gitlab Hook Plugin`这两项，然后安装。
 
-* 自动打包的job任务配置也需要添加钥匙串和描述文件, 需要安装Keychains and Provisioning Profiles Management插件，安装后在Jenkins首页点击系统管理会找到这个插件，点击进去。
+* 自动打包的job任务配置也需要添加钥匙串和描述文件, 需要安装`Keychains and Provisioning Profiles Management`插件，安装后在Jenkins首页点击系统管理会找到这个插件，点击进去。
 
 * 如果项目git依赖了其他的项目git，需要添加`Multiple SCMs plugin`插件，可以添加多个git项目地址，（一般来说, Jenkins 一个项目只有一个 SCM, 但 multiple SCMs 这个插件, 允许在工作目录下的任意目录checkout另外的仓库, 这样就(在一定程度上)起到了和 git submodule 相同的作用.）
 【这种方式后面的版本废弃，改用git下的Additional Behaviours添加】
@@ -83,3 +83,20 @@ java.lang.NullPointerException
 	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
 	at hudson.model.ResourceController.execute(ResourceController.java:97)
 	at hudson.model.Executor.run(Executor.java:429)
+	
+	
+	
+	##### 2.  问题
+
+ERROR: Timeout after 10 minutes
+ERROR: Error fetching remote repo 'origin'
+	
+	
+	权限问题：1 修改了
+	
+	
+	
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean -workspace MGTestJenkinsBeta.xcworkspace -scheme MGTestJenkinsBeta -configuration release
+
+xcodebuild: error: 'MGTestJenkinsBeta.xcworkspace' does not exist.
