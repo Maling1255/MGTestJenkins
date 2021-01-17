@@ -149,8 +149,8 @@ params = {
     '_api_key': _api_key,               # API Key，用来识别API调用者的身份
     'file': open(ipa_file_path, 'rb'),  # 需要上传的ipa或者apk文件
     #'publishRange': '2',
-    'buildInstallDate': '2'             # 是否设置安装有效期，值为：1 设置有效时间， 2 长期有效，如果不填写不修改上一次的设置
-    'buildPassword': installPassword,   # 设置App安装密码，密码为空时默认公开安装
+    'buildInstallDate': '2',             # 是否设置安装有效期，值为：1 设置有效时间， 2 长期有效，如果不填写不修改上一次的设置
+    'buildPassword': installPassword,   # 设置App安装密码，密码为空时默认公开安装, 这里设置的安装密码“1”
     'buildInstallType': _buildInstallType #应用安装方式，值为(1,2,3，默认为1 公开安装)。1：公开安装，2：密码安装，3：邀请安装
 }
 
